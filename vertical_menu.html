@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vertical Menu Bar</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        .menu_flex{
+            display: flex;
+            background-color: aqua;
+            align-items: center;
+            justify-content: center
+        }
+        .menu_flex li{
+            padding: 10px;
+             
+        }
+        .menu_flex li { 
+           
+            list-style-type: none;
+            
+        }
+        .menu_flex a{
+            text-decoration: none;
+        } 
+
+        .menu {
+            width: 200px;
+            height: 320px;
+            background-color: #e68a4d;
+            color: white;
+            padding: 0;
+            margin: 0;
+            list-style-type: none;
+            text-align: center;
+        }
+        .menu li {
+            
+            padding: 10px;
+            /* border-bottom: 1px solid #555; */
+        }
+        .menu li:hover {
+            background-color: #555;
+        }
+        .menu a {
+            color: white;
+           
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <ul class="menu_flex">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">Contact</a></li>
+        <li><a href="#">Notices</a></li>
+        <li><a href="#">Events</a></li>
+        <li><a href="#">login</a></li>
+        <li><a href="#">register</a></li>
+    </ul>
+    <ul class="menu">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">Contact</a></li>
+        <li><a href="#">Notices</a></li>
+        <li><a href="#">Events</a></li>
+        <li><a href="#">login</a></li>
+        <li><a href="#">register</a></li>
+    </ul>
+</body>
+</html>
